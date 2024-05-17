@@ -1,0 +1,98 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyDemoSuite" parallel="tests" thread-count="2" >
+	
+    <!--test name="JavaScriptAlerts">
+		
+		<parameter name="browser" value="firefox"/>
+		<group>
+            <run>
+                <include name="smoke" />
+            </run>
+        </group!-->
+        <!--classes>
+            <class name="testsample.Testngsample">
+				
+				<methods>
+                    <include name="sample1"/>
+                    <include name="sample3"/>
+                  
+                </methods>
+			</class>
+			<class name="testsample.Testngsample2">
+				
+				<methods>
+                    <include name="samplePrintout"/>
+                    <include name="myTest"/>
+                </methods>
+			</class>
+			
+			<class name="testsample.retryprogram">
+				
+				<methods>
+                    <include name="testingA"/>
+                </methods>
+                </class>
+                <class name="testsample.report">
+				
+				<methods>
+                    <include name="myTestMethod5"/>
+                </methods>
+                </class>
+			<class name="testsample.pageobjectmodelclass">
+				
+				<methods>
+                    <include name="setup"/>
+                    <include name="verify"/>
+                      <include name="verifyfactory"/>
+                    
+                </methods>
+                </class>
+                <class name="practice.parametertest">
+				
+				<methods>
+                    <include name="openbrowser"/>
+                    
+                    
+                </methods>
+                </class>
+			
+			
+        </classes>
+    </test!-->
+    <!--test name="firefoxtest">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="practice.parametertest">
+				
+			</class>
+			
+		</classes>
+	</test>
+	<test name="chrometest">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="practice.parametertest">
+				
+			</class>
+			
+		</classes>
+	</test>
+	<test name="edgetest">
+		<parameter name="browser" value="edge"/>
+		<classes>
+			<class name="practice.parametertest">
+				
+			</class>
+			
+		</classes>
+	</test!-->
+	<test name="table">
+		
+		<classes>
+			<class name="tests.SimpleFormTest">
+				
+			</class>
+			
+		</classes>
+	</test>
+</suite>
